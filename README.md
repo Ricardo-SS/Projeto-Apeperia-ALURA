@@ -1,7 +1,7 @@
 
 <h1> Projeto educacional Desenvolver 2023.</h1>
 
-<h2> Promovido por: Grupo Boticario </h2>
+<h2> Promovido por: Grupo Boticário </h2>
 
 <h2> Desenvolvido por: Alura Cursos </h1>
 
