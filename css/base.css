@@ -1,3 +1,4 @@
+/* Autor: Ricardo Santos */
 :root {
     --branco: #FFFFFF;
     --azul-claro: #DFE3E5;
@@ -16,7 +17,7 @@
     --planos-cartao-ultra: #B04CD9;
     --planos-cartao-mega: #E33B3B;
 
-    --montserrat: 'Montserrat', serif;
+    --montserrat: 'Montserrat', sans-serif;
 }
 
 body {
@@ -30,11 +31,19 @@ body {
 
 .botao {
     text-align: center;
-    display:block;
+
+    display: block;
     width: 100%;
     max-width: 350px;
     box-sizing: border-box;
     padding: 1rem 2rem;
     border: 1px solid var(--branco);
-    border-radius: 0.5rem;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
 }
